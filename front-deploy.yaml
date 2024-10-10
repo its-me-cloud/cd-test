@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: front
-        image: readytodev/5team-front:1.0
+        image: team2-registry.ci.lion.nyhhs.com:8443/test/bankit-front:20241010064531
         imagePullPolicy: Always
         ports:
         - containerPort: 80
