@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: front
-        image: team2-registry.ci.lion.nyhhs.com:8443/client-dev/bankit-front:20241014072844
+        image: team2-registry.ci.lion.nyhhs.com:8443/client-dev/bankit-front:20241016081207
         imagePullPolicy: Always
         ports:
         - containerPort: 80
